@@ -68,6 +68,18 @@
         "source": "C:\\Users\\dmoraes\\.android\\build-cache\\889ad9dc0f5ffa290a4ac81b61a5b521c47582ff\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\TestImageWithText\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gandhi.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\TestImageWithText\\app\\src\\main\\res\\drawable\\gandhi.png"
+    },
+    {
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\TestImageWithText\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bobmarley.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\TestImageWithText\\app\\src\\main\\res\\drawable\\bobmarley.png"
+    },
+    {
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\TestImageWithText\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\churchill.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\TestImageWithText\\app\\src\\main\\res\\drawable\\churchill.png"
+    },
+    {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\TestImageWithText\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "C:\\Users\\dmoraes\\.android\\build-cache\\889ad9dc0f5ffa290a4ac81b61a5b521c47582ff\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },

@@ -1,8 +1,11 @@
 package br.com.ddmsoftware.testimagewithtext;
 
+import android.Manifest;
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -12,6 +15,7 @@ import android.graphics.Paint;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Environment;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Layout;
@@ -31,7 +35,6 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-
     //ImageView imageView;
     Button btnShare;
     Button btnNewProverb;
@@ -42,8 +45,11 @@ public class MainActivity extends AppCompatActivity {
     public String full_filename;
     File file;
     Integer iLastImageLoaded = 0;
+    boolean b_filtered = false;
 
     ImageView imageView;
+    List<Quote> lstQuote;
+    List<Quote> lstQuotesPerAuthor;
 
     int iCount = 0;
 
@@ -51,6 +57,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Quote quotes = new Quote();
+
+        lstQuotesPerAuthor = new ArrayList<>();
+        lstQuote = quotes.initializeData();
 
         Button button = (Button) findViewById(R.id.myButton);
         button.setText("Clica Aqui!");
@@ -66,87 +77,38 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-/*
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getBaseContext(), "Hello World.", Toast.LENGTH_LONG).show();
+                //Toast.makeText(getBaseContext(), "Hello World.", Toast.LENGTH_LONG).show();
 
-                int aColors[] = new int[3];
-                switch (iCount) {
-                    case 0:
-                        aColors[0] = 255;
-                        aColors[1] = 255;
-                        aColors[2] = 61;
-                        imageView.setImageBitmap(drawTextOnBitmap(getApplication().getBaseContext(), R.drawable.confucio, aColors, "A cultura está acima da diferença da condição social."));
-                        iCount++;
-                        break;
-                    case 1:
-                        aColors[0] = 0;
-                        aColors[1] = 0;
-                        aColors[2] = 0;
-                        imageView.setImageBitmap(drawTextOnBitmap(getApplication().getBaseContext(), R.drawable.einstein, aColors, "Existe uma coisa que uma longa existência me ensinou: toda a nossa ciência, comparada à realidade, é primitiva e inocente. e, portanto, é o que temos de mais valioso."));
-                        iCount++;
-                        break;
-                    case 2:
-                        aColors[0] = 255;
-                        aColors[1] = 255;
-                        aColors[2] = 255;
-                        imageView.setImageBitmap(drawTextOnBitmap(getApplication().getBaseContext(), R.drawable.platao, aColors, "O cansaço físico, mesmo que suportado forçosamente, não prejudica o corpo, enquanto o conhecimento imposto à força não pode permanecer na alma por muito tempo."));
-                        iCount = 0;
-                        break;
-                }
-            }
-        });
-        */
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getBaseContext(), "Hello World.", Toast.LENGTH_LONG).show();
 
-                Quote quotes = new Quote();
-
-                List<Quote> lstQuote;
-
-                lstQuote = quotes.initializeData();
 
                 Random random = new Random();
 
                 int i = random.nextInt(lstQuote.size());
                 System.out.println(lstQuote.get(i).author); //prints element i
-                Toast.makeText(getBaseContext(),lstQuote.get(i).author,Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getBaseContext(),lstQuote.get(i).author,Toast.LENGTH_SHORT).show();
 
-                /*
-                for(int i = 0; i < lstQuote.size(); i++) {
-                    System.out.println(lstQuote.get(i).); //prints element i
-                } */
+                if (lstQuote.get(i).author.equals("Confúcio")) {
 
-                imageView.setImageBitmap(drawTextOnBitmap(getApplication().getBaseContext(), lstQuote.get(i).authorBackground, lstQuote.get(i).quoteFontColor, lstQuote.get(i).quote));
-/*
-                int aColors[] = new int[3];
-                switch (iCount) {
-                    case 0:
-                        aColors[0] = 255;
-                        aColors[1] = 255;
-                        aColors[2] = 61;
-                        imageView.setImageBitmap(drawTextOnBitmap(getApplication().getBaseContext(), R.drawable.confucio, aColors, "A cultura está acima da diferença da condição social."));
-                        iCount++;
-                        break;
-                    case 1:
-                        aColors[0] = 0;
-                        aColors[1] = 0;
-                        aColors[2] = 0;
-                        imageView.setImageBitmap(drawTextOnBitmap(getApplication().getBaseContext(), R.drawable.einstein, aColors, "Existe uma coisa que uma longa existência me ensinou: toda a nossa ciência, comparada à realidade, é primitiva e inocente. e, portanto, é o que temos de mais valioso."));
-                        iCount++;
-                        break;
-                    case 2:
-                        aColors[0] = 255;
-                        aColors[1] = 255;
-                        aColors[2] = 255;
-                        imageView.setImageBitmap(drawTextOnBitmap(getApplication().getBaseContext(), R.drawable.platao, aColors, "O cansaço físico, mesmo que suportado forçosamente, não prejudica o corpo, enquanto o conhecimento imposto à força não pode permanecer na alma por muito tempo."));
-                        iCount = 0;
-                        break;
-                }*/
+                    for(int x = 0; x < lstQuote.size(); x++) {
+
+                        if (lstQuote.get(x).author.equals("Confúcio"))
+                            lstQuotesPerAuthor.add(lstQuote.get(x));
+
+                        System.out.println(lstQuote.get(x)); //prints element i
+                        b_filtered = true;
+
+                    }
+                }
+
+                if (b_filtered) {
+                    i = random.nextInt(lstQuotesPerAuthor.size());
+                    imageView.setImageBitmap(drawTextOnBitmap(getApplication().getBaseContext(), lstQuotesPerAuthor.get(i).authorBackground, lstQuotesPerAuthor.get(i).quoteFontColor, lstQuotesPerAuthor.get(i).quote));
+                }
+                else
+                    imageView.setImageBitmap(drawTextOnBitmap(getApplication().getBaseContext(), lstQuote.get(i).authorBackground, lstQuote.get(i).quoteFontColor, lstQuote.get(i).quote));
             }
         });
 
@@ -241,7 +203,7 @@ public class MainActivity extends AppCompatActivity {
             paint.setTextSize(iTextSize);
 
 
-        Toast.makeText(getBaseContext(), "OLHA O TAMANHO DO MEU TEXTO: " + iTextSize, Toast.LENGTH_LONG).show();
+        //Toast.makeText(getBaseContext(), "OLHA O TAMANHO DO MEU TEXTO: " + iTextSize, Toast.LENGTH_LONG).show();
         // text shadow
         //paint.setShadowLayer(1f, 0f, 1f, Color.WHITE);
 
@@ -302,6 +264,8 @@ public class MainActivity extends AppCompatActivity {
         Bitmap bitmap;
 
         OutputStream output;
+
+        verifyStoragePermissions(MainActivity.this);
 
         // Retrieve the image selected in ImageView component
         imageView.buildDrawingCache(true);
@@ -409,6 +373,35 @@ public class MainActivity extends AppCompatActivity {
 
             }
         }).start();
+    }
+
+
+    // Storage Permissions
+    private static final int REQUEST_EXTERNAL_STORAGE = 1;
+    private static String[] PERMISSIONS_STORAGE = {
+            Manifest.permission.READ_EXTERNAL_STORAGE,
+            Manifest.permission.WRITE_EXTERNAL_STORAGE
+    };
+
+    /**
+     * Checks if the app has permission to write to device storage
+     *
+     * If the app does not has permission then the user will be prompted to grant permissions
+     *
+     * @param activity
+     */
+    public static void verifyStoragePermissions(Activity activity) {
+        // Check if we have write permission
+        int permission = ActivityCompat.checkSelfPermission(activity, Manifest.permission.WRITE_EXTERNAL_STORAGE);
+
+        if (permission != PackageManager.PERMISSION_GRANTED) {
+            // We don't have permission so prompt the user
+            ActivityCompat.requestPermissions(
+                    activity,
+                    PERMISSIONS_STORAGE,
+                    REQUEST_EXTERNAL_STORAGE
+            );
+        }
     }
 
 }
