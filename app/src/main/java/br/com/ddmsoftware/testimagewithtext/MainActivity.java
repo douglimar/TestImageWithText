@@ -24,6 +24,7 @@ import android.text.TextPaint;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import java.io.File;
@@ -64,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         lstQuote = quotes.initializeData();
 
         Button button = (Button) findViewById(R.id.myButton);
-        button.setText("Clica Aqui!");
+        button.setText("Quote!");
 
         imageView = (ImageView) findViewById(R.id.myImageView);
 
@@ -82,19 +83,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //Toast.makeText(getBaseContext(), "Hello World.", Toast.LENGTH_LONG).show();
 
-
-
                 Random random = new Random();
 
                 int i = random.nextInt(lstQuote.size());
                 System.out.println(lstQuote.get(i).author); //prints element i
                 //Toast.makeText(getBaseContext(),lstQuote.get(i).author,Toast.LENGTH_SHORT).show();
 
-                if (lstQuote.get(i).author.equals("Confúcio")) {
+                if (lstQuote.get(i).author.equals("NOME_DO_AUTOR_A_SER_FILTRADO")) {
 
                     for(int x = 0; x < lstQuote.size(); x++) {
 
-                        if (lstQuote.get(x).author.equals("Confúcio"))
+                        if (lstQuote.get(x).author.equals("NOME_DO_AUTOR_A_SER_FILTRADO"))
                             lstQuotesPerAuthor.add(lstQuote.get(x));
 
                         System.out.println(lstQuote.get(x)); //prints element i
@@ -105,10 +104,15 @@ public class MainActivity extends AppCompatActivity {
 
                 if (b_filtered) {
                     i = random.nextInt(lstQuotesPerAuthor.size());
-                    imageView.setImageBitmap(drawTextOnBitmap(getApplication().getBaseContext(), lstQuotesPerAuthor.get(i).authorBackground, lstQuotesPerAuthor.get(i).quoteFontColor, lstQuotesPerAuthor.get(i).quote));
+                    imageView.setImageBitmap(drawTextOnBitmap(getApplication().getBaseContext(), lstQuotesPerAuthor.get(i).authorBackground, lstQuotesPerAuthor.get(i).quoteFontColor, lstQuotesPerAuthor.get(i).quote+ "\n\n" + lstQuotesPerAuthor.get(i).author));
+                    //linearLayout.setBackground( new BitmapDrawable(drawTextOnBitmap(getApplication().getBaseContext(), lstQuotesPerAuthor.get(i).authorBackground, lstQuotesPerAuthor.get(i).quoteFontColor, lstQuotesPerAuthor.get(i).quote+ "\n\n" + lstQuotesPerAuthor.get(i).author)));
+                    imageView.setScaleType(ImageView.ScaleType.FIT_XY);
                 }
-                else
-                    imageView.setImageBitmap(drawTextOnBitmap(getApplication().getBaseContext(), lstQuote.get(i).authorBackground, lstQuote.get(i).quoteFontColor, lstQuote.get(i).quote));
+                else {
+                    //linearLayout.setBackground(new BitmapDrawable(drawTextOnBitmap(getApplication().getBaseContext(), lstQuote.get(i).authorBackground, lstQuote.get(i).quoteFontColor, lstQuote.get(i).quote + "\n\n" + lstQuote.get(i).author)));
+                    imageView.setImageBitmap(drawTextOnBitmap(getApplication().getBaseContext(), lstQuote.get(i).authorBackground, lstQuote.get(i).quoteFontColor, lstQuote.get(i).quote  + "\n\n" + lstQuote.get(i).author));
+                    imageView.setScaleType(ImageView.ScaleType.FIT_XY);
+                }
             }
         });
 
@@ -142,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
         paint.setShadowLayer(1f, 0f, 1f, Color.WHITE);
 
         // set text width to canvas width minus 16dp padding
-        int textWidth = canvas.getWidth() - (int) (16 * scale);
+        int textWidth = canvas.getWidth() - (int) (24 * scale);
 
         // init StaticLayout for text
         StaticLayout textLayout = new StaticLayout(text, paint, textWidth,
@@ -213,9 +217,12 @@ public class MainActivity extends AppCompatActivity {
         // init StaticLayout for text
         /*StaticLayout textLayout = new StaticLayout(text, paint, textWidth,
                 Layout.Alignment.ALIGN_CENTER, 1.0f, 0.0f, false);
-        */
         StaticLayout textLayout = new StaticLayout(text, paint, textWidth,
                 Layout.Alignment.ALIGN_CENTER, 1.0f, 0.0f, false);
+        */
+
+        StaticLayout textLayout = new StaticLayout(text, paint, textWidth,
+                Layout.Alignment.ALIGN_OPPOSITE, 1.0f, 0.0f, false);
 
         // get height of multiline text
         int textHeight = textLayout.getHeight();

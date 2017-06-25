@@ -1,4 +1,7 @@
-#Fri Jun 23 14:05:28 BRT 2017
-base.0=C\:\\Users\\dmoraes\\AndroidStudioProjects\\TestImageWithText\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Users\\dmoraes\\AndroidStudioProjects\\TestImageWithText\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Sat Jun 24 20:38:41 BRT 2017
+base.0=/home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9272eaa05aa5c51cfcdf79ca10b5ac06dac6f2a2
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7b80fd419bc4ac415de313f82fb1149733214f10/classes.dex
+base.1=/home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7b80fd419bc4ac415de313f82fb1149733214f10
+file.0=/home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9272eaa05aa5c51cfcdf79ca10b5ac06dac6f2a2/classes.dex

@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\TestImageWithText\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\dmoraes\\.android\\build-cache\\889ad9dc0f5ffa290a4ac81b61a5b521c47582ff\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "/home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\TestImageWithText\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\dmoraes\\.android\\build-cache\\889ad9dc0f5ffa290a4ac81b61a5b521c47582ff\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     }
 ]

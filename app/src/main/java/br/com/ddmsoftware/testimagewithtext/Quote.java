@@ -144,6 +144,23 @@ public class Quote {
         quotes.add(new Quote("Bob Marley","Há pessoas que amam o poder, e outras que tem o poder de amar.",aColorWhite,R.drawable.bobmarley));
         quotes.add(new Quote("Bob Marley","Nós nos recusamos a ser quem vocês queriam que fôssemos, somos o que somos.",aColorWhite,R.drawable.bobmarley));
 
+        quotes.add(new Quote("Charles Chaplin","Amo as mulheres, mas não as admiro...;",aColorBlack,R.drawable.chaplin2));
+        quotes.add(new Quote("Charles Chaplin","Que os vossos esforços desafiem as impossibilidades, lembrai-vos de que as grandes coisas do homem foram conquistadas do que parecia impossível.",aColorBlack,R.drawable.chaplin2));
+        quotes.add(new Quote("Charles Chaplin","Se o que você esta fazendo for engraçado, não há necessidade de ser engraçado para fazê-lo.",aColorBlack,R.drawable.chaplin2));
+        quotes.add(new Quote("Charles Chaplin","Num filme o que importa não é a realidade, mas o que dela possa extrair a imaginação.;",aColorBlack,R.drawable.chaplin2));
+        quotes.add(new Quote("Charles Chaplin","Se matamos uma pessoa somos assassinos. Se matamos milhões de homens, celebram-nos como heróis.",aColorBlack,R.drawable.chaplin2));
+        quotes.add(new Quote("Charles Chaplin","A beleza é a única coisa preciosa na vida. É difícil encontrá-la - mas quem consegue descobre tudo.",aColorBlack,R.drawable.chaplin2));
+        quotes.add(new Quote("Charles Chaplin","A humanidade não se divide em heróis e tiranos. As suas paixões, boas e más, foram-lhe dadas pela sociedade, não pela natureza.",aColorBlack,R.drawable.chaplin));
+        quotes.add(new Quote("Charles Chaplin","Conhecer o homem - esta é a base de todo o sucesso.",aColorBlack,R.drawable.chaplin2));
+        quotes.add(new Quote("Charles Chaplin","Se tivesse acreditado na minha brincadeira de dizer verdades teria ouvido verdades que teimo em dizer brincando, falei muitas vezes como um palhaço mas jamais duvidei da sinceridade da platéia que sorria.",aColorBlack,R.drawable.chaplin));
+        quotes.add(new Quote("Charles Chaplin","Amo o público, mas não o admiro. Como indivíduos, sim. Mas, como multidão, não passa de um monstro sem cabeça.",aColorBlack,R.drawable.chaplin));
+        quotes.add(new Quote("Charles Chaplin","O assunto mais importante do mundo pode ser simplificado até ao ponto em que todos possam apreciá-lo e compreendê-lo. Isso é - ou deveria ser - a mais elevada forma de arte.",aColorBlack,R.drawable.chaplin));
+        quotes.add(new Quote("Charles Chaplin","Creio no riso e nas lágrimas como antídotos contra o ódio e o terror.",aColorBlack,R.drawable.chaplin));
+        quotes.add(new Quote("Charles Chaplin","O amor perfeito é a mais bela das frustrações, pois está acima do que se pode exprimir.O humorismo alivia-nos das vicissitudes da vida, ativando o nosso senso de proporção e revelando-nos que a seriedade exagerada tende ao absurdo.",aColorBlack,R.drawable.chaplin));
+        quotes.add(new Quote("Charles Chaplin","A única coisa tão inevitavel quanto a morte é a vida",aColorBlack,R.drawable.chaplin));
+        quotes.add(new Quote("Charles Chaplin","Não preciso me drogar para ser um gênio. Não preciso ser um gênio para ser humano. Mas preciso do seu sorriso para ser feliz.",aColorBlack,R.drawable.chaplin));
+
+
         return quotes;
     };
 }

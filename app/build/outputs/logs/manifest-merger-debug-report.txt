@@ -1,95 +1,95 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:3:5-51
-		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:5:5-79
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:5:22-77
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:5:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:6:5-80
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:6:5-80
 	android:name
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:6:22-78
 application
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:8:5-22:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\dmoraes\.android\build-cache\889ad9dc0f5ffa290a4ac81b61a5b521c47582ff\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\dmoraes\.android\build-cache\5f709fe04cc5d6f4979ec482b477dc9d944006d3\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\dmoraes\.android\build-cache\a7b65d28362611331b589416a4b352244240991b\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\dmoraes\.android\build-cache\da6483c72735fbabe7dd72dd467bb328229cd656\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\dmoraes\.android\build-cache\ff031111e45df20255e822e607158c1ad2139e09\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\dmoraes\.android\build-cache\d482ad5c8db817dc767130318f6ece409f9a8163\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\dmoraes\.android\build-cache\1f225f9a8a3b37cc3bb6ba2067aac3907509aca4\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\dmoraes\.android\build-cache\ef92f055522ef4144064a1e872e7dbdf9bb68dbc\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\dmoraes\.android\build-cache\60e8fc780dae0f411052d054a55f4819945ee352\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha8] C:\Users\dmoraes\.android\build-cache\a57996cfd6eb50fce37152465603dc92a979f42b\output\AndroidManifest.xml:9:5-20
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:8:5-22:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/douglimar/.android/build-cache/a1f33acddf7d2ffd7f90678027ce31af0fc16787/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/douglimar/.android/build-cache/151d1eba20ab0e4c51cd0580ef9a82f5add7b01f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/douglimar/.android/build-cache/c46f698d9a00b189137cfbb56ee1054b9a9ea277/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/douglimar/.android/build-cache/aa46857fe45c76c8c5f09fc288aeec6bc62dde12/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/douglimar/.android/build-cache/259994c8d01100d62b6d8654484fd8f8ddb75c68/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/douglimar/.android/build-cache/a25fac9dcdb33a3e2019a9aa70f6717f32828365/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/douglimar/.android/build-cache/b1ebe53ffe5fefa6ff21c023d176fe86b0362085/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/douglimar/.android/build-cache/ab33fca70921949642378617c90da4a1c56e0e1d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha8] /home/douglimar/.android/build-cache/827f2e2cbbc04b04b6a40ea54748b04282d03b78/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:13:9-35
 	android:roundIcon
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:12:9-54
 	android:allowBackup
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:10:9-43
 	android:theme
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:14:9-40
 activity#br.com.ddmsoftware.testimagewithtext.MainActivity
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:15:19-47
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:15:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml:19:27-74
 uses-sdk
-INJECTED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\dmoraes\.android\build-cache\889ad9dc0f5ffa290a4ac81b61a5b521c47582ff\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\dmoraes\.android\build-cache\5f709fe04cc5d6f4979ec482b477dc9d944006d3\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\dmoraes\.android\build-cache\a7b65d28362611331b589416a4b352244240991b\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\dmoraes\.android\build-cache\da6483c72735fbabe7dd72dd467bb328229cd656\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\dmoraes\.android\build-cache\ff031111e45df20255e822e607158c1ad2139e09\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\dmoraes\.android\build-cache\d482ad5c8db817dc767130318f6ece409f9a8163\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\dmoraes\.android\build-cache\1f225f9a8a3b37cc3bb6ba2067aac3907509aca4\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\dmoraes\.android\build-cache\ef92f055522ef4144064a1e872e7dbdf9bb68dbc\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\dmoraes\.android\build-cache\60e8fc780dae0f411052d054a55f4819945ee352\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha8] C:\Users\dmoraes\.android\build-cache\a57996cfd6eb50fce37152465603dc92a979f42b\output\AndroidManifest.xml:5:5-7:41
+INJECTED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /home/douglimar/.android/build-cache/a1f33acddf7d2ffd7f90678027ce31af0fc16787/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/douglimar/.android/build-cache/151d1eba20ab0e4c51cd0580ef9a82f5add7b01f/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/douglimar/.android/build-cache/c46f698d9a00b189137cfbb56ee1054b9a9ea277/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/douglimar/.android/build-cache/aa46857fe45c76c8c5f09fc288aeec6bc62dde12/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/douglimar/.android/build-cache/259994c8d01100d62b6d8654484fd8f8ddb75c68/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/douglimar/.android/build-cache/a25fac9dcdb33a3e2019a9aa70f6717f32828365/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/douglimar/.android/build-cache/b1ebe53ffe5fefa6ff21c023d176fe86b0362085/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /home/douglimar/.android/build-cache/ab33fca70921949642378617c90da4a1c56e0e1d/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha8] /home/douglimar/.android/build-cache/827f2e2cbbc04b04b6a40ea54748b04282d03b78/output/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\dmoraes\.android\build-cache\889ad9dc0f5ffa290a4ac81b61a5b521c47582ff\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\TestImageWithText\app\src\main\AndroidManifest.xml
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/TestImageWithText/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\dmoraes\.android\build-cache\889ad9dc0f5ffa290a4ac81b61a5b521c47582ff\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\dmoraes\.android\build-cache\5f709fe04cc5d6f4979ec482b477dc9d944006d3\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\dmoraes\.android\build-cache\a7b65d28362611331b589416a4b352244240991b\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\dmoraes\.android\build-cache\da6483c72735fbabe7dd72dd467bb328229cd656\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\dmoraes\.android\build-cache\ff031111e45df20255e822e607158c1ad2139e09\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\dmoraes\.android\build-cache\d482ad5c8db817dc767130318f6ece409f9a8163\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\dmoraes\.android\build-cache\1f225f9a8a3b37cc3bb6ba2067aac3907509aca4\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\dmoraes\.android\build-cache\ef92f055522ef4144064a1e872e7dbdf9bb68dbc\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\dmoraes\.android\build-cache\60e8fc780dae0f411052d054a55f4819945ee352\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:appcompat-v7:25.3.1] /home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/douglimar/.android/build-cache/a1f33acddf7d2ffd7f90678027ce31af0fc16787/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/douglimar/.android/build-cache/151d1eba20ab0e4c51cd0580ef9a82f5add7b01f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/douglimar/.android/build-cache/c46f698d9a00b189137cfbb56ee1054b9a9ea277/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/douglimar/.android/build-cache/aa46857fe45c76c8c5f09fc288aeec6bc62dde12/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/douglimar/.android/build-cache/259994c8d01100d62b6d8654484fd8f8ddb75c68/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/douglimar/.android/build-cache/a25fac9dcdb33a3e2019a9aa70f6717f32828365/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/douglimar/.android/build-cache/b1ebe53ffe5fefa6ff21c023d176fe86b0362085/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/douglimar/.android/build-cache/ab33fca70921949642378617c90da4a1c56e0e1d/output/AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\dmoraes\.android\build-cache\889ad9dc0f5ffa290a4ac81b61a5b521c47582ff\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\dmoraes\.android\build-cache\889ad9dc0f5ffa290a4ac81b61a5b521c47582ff\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/AndroidManifest.xml:26:9-47
